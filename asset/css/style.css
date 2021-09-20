@@ -120,14 +120,6 @@ html{
     display: block;
 }
 
-#slider{
-    
-}
-
-#content{
-  
-  
-}
 
 .slider-btn-tour{
     display: flex;
@@ -403,10 +395,7 @@ html{
     color: #3fd0d4;
 }
 
-.col-3-list{
-   
 
-}
 
 .col-3-list-img:hover{
     transform: translateY(-5px);
