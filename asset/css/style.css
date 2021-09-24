@@ -132,6 +132,19 @@ html{
     padding: 0px 3px;
 }
 
+.button1{
+    border: none;
+    text-transform: uppercase;
+    background-color: #3fd0d4;
+    color: #fff;
+    width: 181px;
+    height: 78px;
+}
+
+.button1:hover {
+    background-color: #008080;
+}
+
 
 #content{
     margin-top: 80px;
