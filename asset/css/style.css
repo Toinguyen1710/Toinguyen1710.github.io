@@ -202,21 +202,21 @@ html{
 }
 
 .content-section-2{
-    background-image: url('C:/Users/toing/OneDrive/Tài liệu/GitHub/Toinguyen1710.github.io/asset/img/background2.jpg');
+    background-image: url('../img/background2.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     height: 883px; 
 }
 
 .content-section-1{
-    background-image: url('C:/Users/toing/OneDrive/Tài liệu/HML/Travel_Agency/asset/img/backgraou.jpg');
+    background-image: url('../img/background3.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     height: 842px;  
 }
 
 .content-section-3{
-    background-image: url('C:/Users/toing/OneDrive/Tài liệu/HML/Travel_Agency/asset/img/background4.jpg');
+    background-image: url('../img/background4.jpg');
     background-repeat: no-repeat;
     background-size: 100%;   
     height: 1000px;
