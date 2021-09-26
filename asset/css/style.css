@@ -270,12 +270,14 @@ html{
     background-repeat: no-repeat;
     background-size: 100%;
     height: 48.375rem;
+    background-attachment: fixed;
 }
 .content-section-4{
     background-image: url('../img/convoi.jpg');
     background-repeat: no-repeat;
     background-size: 100%; 
     height: 56.25rem;
+    background-attachment: fixed;
 }
 
 .content-section-6{
