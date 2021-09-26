@@ -14,10 +14,10 @@ html{
     right: 0;
     left: 0;
     display: flex;
-    height: 80px;
+    height: 5rem;
     background-color: #fff;
-    padding: 0px 20px;
-    box-shadow: 0px 5px 10px rgb(0 0 0 / 10%);
+    padding: 0rem 1.25rem;
+    box-shadow: 0rem 0.3125rem 0.625rem rgb(0 0 0 / 10%);
     z-index: 10;
 }
 
@@ -28,7 +28,7 @@ html{
 }
 
 .header-logo-img{
-    height: 48px;
+    height: 3rem;
 }
 
 .header-list{
@@ -37,7 +37,7 @@ html{
     width: 80%;
     justify-content: space-evenly;
     margin-bottom: 0;
-    padding-right: 32px;
+    padding-right: 2rem;
     
     
 }
@@ -50,9 +50,9 @@ html{
 .list-item-text{ 
     text-decoration: none;
     color: #000;
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: bolder;
-    line-height: 80px;
+    line-height: 5rem;
     position: relative;
 }
 
@@ -64,7 +64,7 @@ html{
 
     display: flex;
     align-items: center;
-    padding-left: 10px;
+    padding-left: 0.625rem;
     margin-bottom: 0;
     
 }
@@ -78,18 +78,18 @@ html{
     display: inline-block;
 }
 .list-icon-link{
-   font-size: 22px;
+   font-size: 1.375rem;
    color: #000;
-   padding: 0px 10px;
+   padding: 0rem 0.625rem;
 }
 
 .header-list-btn{
     display: none;
     position: absolute;
     background-color: #fff;
-    min-width: 220px;
-    box-shadow: 0 1px 4px rgb(0 0 0 / 20%);
-    margin-left: -42px;
+    min-width: 13.75rem;
+    box-shadow: 0 0.0625rem 0.25rem rgb(0 0 0 / 20%);
+    margin-left: -2.625rem;
 }
 .header-list-btn li a{
    
@@ -103,8 +103,8 @@ html{
 
 .header-list-item-btn{
     list-style: none;
-    padding: 18px 0px;
-    margin-left: 8px;
+    padding: 1.125rem 0rem;
+    margin-left: 0.5rem;
 }
 
 .header-list-btn li:hover a{
@@ -116,20 +116,20 @@ html{
 }
 
 .nav-tab{
-    margin-top: 30px;
-    width: 1120px; 
+    margin-top: 1.875rem;
+    width: 70rem; 
     display: flex;
     margin-left: auto;
     margin-right: auto;
    
 }
 .nav-form-control, .nav-select{
-    width: 305px;
-    padding: 0px 3px;
+    width: 19.0625rem;
+    padding: 0rem 0.1875rem;
 }
 
 .nav-buttons{
-    padding: 0px 3px;
+    padding: 0rem 0.1875rem;
 }
 
 .button1{
@@ -137,8 +137,8 @@ html{
     text-transform: uppercase;
     background-color: #3fd0d4;
     color: #fff;
-    width: 181px;
-    height: 78px;
+    width: 11.3125rem;
+    height: 4.875rem;
 }
 
 .button1:hover {
@@ -147,22 +147,22 @@ html{
 
 
 #content{
-    margin-top: 80px;
+    margin-top: 5rem;
   
 }
 
 
 .content-section{
-    padding-bottom: 130px;
+    padding-bottom: 8.125rem;
 }
 
 .content-heading-text{
-    padding-top: 101px;
-    padding-bottom: 47px;
+    padding-top: 6.3125rem;
+    padding-bottom: 2.9375rem;
 }
 
 .content-heading-text-3{
-    padding-top: 110px;
+    padding-top: 6.875rem;
    
 }
 
@@ -170,7 +170,7 @@ html{
     display: flex;
     justify-content: center;
     color: #3fd0d4;
-    font-size: 33px;
+    font-size: 2.0625rem;
     font-family: Satisfy,cursive;
     font-style: italic;
 }
@@ -184,20 +184,20 @@ html{
 .section-sub-heading{
     display: flex;
     justify-content: center;
-    font-size: 65px;
+    font-size: 4.0625rem;
 }
 
 .content-heading-sub-text {
     display: flex;
     justify-content: center;
     text-align: center;
-    font-size: 14px; 
+    font-size: 0.875rem; 
 }
 
 .section-sub-heading-1{
     display: flex;
     justify-content: center;
-    font-size: 65px;
+    font-size: 4.0625rem;
     color: #fff;
 }
 
@@ -205,32 +205,33 @@ html{
     background-image: url('../img/background2.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 883px; 
+    height: 55.1875rem; 
 }
 
 .content-section-1{
     background-image: url('../img/background3.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 842px;  
+    height: 52.625rem;  
+    
 }
 
 .content-section-3{
     background-image: url('../img/background4.jpg');
     background-repeat: no-repeat;
     background-size: 100%;   
-    height: 1000px;
+    height: 62.5rem;
 }
 
 .content-section-3-list{
     display: flex;
-    padding: 0px 70px;
+    padding: 0rem 4.375rem;
 }
 
 
 .content-section-3-item{
     width: 33.3333%;
-    padding: 0px 20px;
+    padding: 0rem 1.25rem;
     position: relative;
 }
 
@@ -248,16 +249,16 @@ html{
     bottom: 12%;
     left: 40%;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 1.5625rem;
 }
 
 .content-section-3-price p{
     position: absolute;
     color: #fff;
-    bottom: 5px;
+    bottom: 0.3125rem;
     left: 44%;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .content-section-3-link img{
@@ -265,21 +266,21 @@ html{
 }
 
 .content-section-5{
-    background-image: url('C:/Users/toing/OneDrive/Tài liệu/HML/Travel_Agency/asset/img/background3.jpg');
+    background-image: url('../img/background3.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 774px;
+    height: 48.375rem;
 }
 .content-section-4{
-    background-image: url('C:/Users/toing/OneDrive/Tài liệu/HML/Travel_Agency/asset/img/convoi.jpg');
+    background-image: url('../img/convoi.jpg');
     background-repeat: no-repeat;
     background-size: 100%; 
-    height: 900px;
+    height: 56.25rem;
 }
 
 .content-section-6{
-    padding: 100px 15px 68px 15px;
-    margin: 0px 80px;
+    padding: 6.25rem 0.9375rem 4.25rem 0.9375rem;
+    margin: 0rem 5rem;
 }
 
 .content-section-6-btn{
@@ -288,20 +289,20 @@ html{
 
 .From-Our-Blog-item{
     display: flex;
-    margin-top: 62px;
+    margin-top: 3.875rem;
 }
 
 .From-Our-Blog-text-1{
    width: 70%;
-   padding-left: 15px;
+   padding-left: 0.9375rem;
 }
 
 .From-Our-Blog-heading{
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 .From-Our-Blog-heading-text{
-    font-size: 17px;
+    font-size: 1.0625rem;
 
 }
 
@@ -315,21 +316,21 @@ html{
 }
 
 .From-Our-Blog-heading-btn{
-    font-size: 22px;
+    font-size: 1.375rem;
     font-weight: 700;
 }
 
 .From-Our-Blog-text-btn{
-    font-size: 14px;
+    font-size: 0.875rem;
     color: #505050;
 }
 
 .calender{
-    padding-top: 12px;
+    padding-top: 0.75rem;
 }
 
 .calender-link{
-    font-size: 14px;
+    font-size: 0.875rem;
     color:#212121;
     display: flex;
     text-decoration: none;
@@ -337,7 +338,7 @@ html{
 }
 
 .cl1{
-    padding-left: 20px;
+    padding-left: 1.25rem;
 }
 
 .calender-link:hover p {
@@ -349,9 +350,9 @@ html{
 }
 
 .calender-link i{
-   margin-top: 4px;
-   padding-right: 3px;
-   font-size: 14px;
+   margin-top: 0.25rem;
+   padding-right: 0.1875rem;
+   font-size: 0.875rem;
 }
 
 
@@ -365,7 +366,7 @@ html{
 
 .content-section-6-sale{
     width: 30%;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .content-section-6-sale img{
@@ -390,8 +391,8 @@ html{
 
 .content-heading-sub-text-1{
     text-align: center;
-    font-size: 17px;
-    margin-top: 12px;
+    font-size: 1.0625rem;
+    margin-top: 0.75rem;
     color: #fff;
 }
 
@@ -404,22 +405,22 @@ html{
     display: flex;
     background-color: #fff;
     border-radius: 5%;
-    padding: 40px 30px;
+    padding: 2.5rem 1.875rem;
 }
 
 .content-place{
-    padding: 0px 70px;
+    padding: 0rem 4.375rem;
 }
 
 .content-place-list{
     display: flex;
     justify-content: space-evenly;
-    padding: 15px 0px;
+    padding: 0.9375rem 0rem;
 }
 
 .content-place-item{
     width: 25%;
-    padding: 0px 15px;
+    padding: 0rem 0.9375rem;
     position: relative;
 }
 
@@ -430,7 +431,7 @@ html{
     transform: translate(-50%, -50%);
     color: #fff;
     font-style: italic;
-    font-size: 46px;
+    font-size: 2.875rem;
     font-family: cursive ;
 }
 
@@ -443,15 +444,15 @@ html{
 
 .place-item-list{
     position: absolute; 
-    bottom: 0px;
-    left: 20px;
+    bottom: 0rem;
+    left: 1.25rem;
     color: #fff; 
     width: 100%;
 }
 
 .place-item-text{
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .place-item-btn{
@@ -470,8 +471,8 @@ html{
 }
 
 .place-item-icon i{
-  margin-top: 3px;
-  padding-right: 5px;
+  margin-top: 0.1875rem;
+  padding-right: 0.3125rem;
 }
 
 .pit1{
@@ -484,32 +485,32 @@ html{
 .greetings-from-paris{
     display: flex;
     justify-content: center;
-    padding-top: 56px;
-    padding-bottom: 127px;
+    padding-top: 3.5rem;
+    padding-bottom: 7.9375rem;
 }
 
 .video{
     text-align: center;
-    margin-top: 60px;
+    margin-top: 3.75rem;
   }
 
 .row{
     text-align: center;   
-    padding: 124px 0px;
+    padding: 7.75rem 0rem;
  }
  
 .col-3-list-img:hover{
-    transform: translateY(-5px);
+    transform: translateY(-0.3125rem);
 }
 
 .col-3-list-heading{
     font-weight:700;
-   font-size: 18px;
-   padding-top: 27px;
+   font-size: 1.125rem;
+   padding-top: 1.6875rem;
 }
 
 .col-3-list-heading-text{
-    font-size: 14px;
+    font-size: 0.875rem;
     
 }
 
@@ -523,41 +524,44 @@ html{
 }
 
 .tour{
-    margin: 18px 0px;
+    margin: 1.125rem 0rem;
     width: 25%;
     background-color: #fff;
 }
 
 .tour-1{
-    padding-right: 8px;
+    padding-right: 0.5rem;
 }
 
 .tour-2{
-    padding: 0px 4px;
+    padding: 0rem 0.25rem;
 }
 
 .tour-3{
-    padding: 0px 4px;
+    padding: 0rem 0.25rem;
 }
 
 .tour-4{
-   padding-left: 8px;
+   padding-left: 0.5rem;
 }
 
 .tour-list{
     width: 100%;
 }
+.tour-list:hover{
+   padding: 0 !important;
+}
 
 .tour-heading{
-    border-bottom: 1px #EEEEEE solid;
-    border-left: 1px #EEEEEE solid;
-    border-right: 1px #EEEEEE solid;
-    padding-bottom: 15px;
+    border-bottom: 0.0625rem #EEEEEE solid;
+    border-left: 0.0625rem #EEEEEE solid;
+    border-right: 0.0625rem #EEEEEE solid;
+    padding-bottom: 0.9375rem;
 }
 
 .tour-heading-btn{
-    padding-top: 31px;
-    padding-bottom: 28px;
+    padding-top: 1.9375rem;
+    padding-bottom: 1.75rem;
 }
 
 .tour-heading-btn a{
@@ -576,7 +580,7 @@ html{
 }
 
 .sub-text-heading{
-    margin-bottom: 0px;
+    margin-bottom: 0rem;
     text-align: center;
 }
 
@@ -587,7 +591,7 @@ html{
 }
 
 .ticket-label {
-    height: 40px;
+    height: 2.5rem;
     background-color: #3fd0d4;
     display: flex;
     align-items: center;
@@ -595,36 +599,36 @@ html{
 }
 
 .ticket-item{
-    padding-left: 18px;
+    padding-left: 1.125rem;
     font-weight: 600;
 }
 
 .ticket-label-icon{
-    padding: 0px 18px;
+    padding: 0rem 1.125rem;
     color: #fff;
-    font-size: 14px;
-    line-height: 40px;
+    font-size: 0.875rem;
+    line-height: 2.5rem;
 }
 
 .label-icon-text{
-    padding-left: 10px;
+    padding-left: 0.625rem;
 }
 
 .img-slide{
-    margin-right: 20px;
+    margin-right: 1.25rem;
 }
 
 .ssi-1{
-    margin-right: 16px;
+    margin-right: 1rem;
 }
 
 .ssi-2{
-    margin-left: 8px;
-    margin-right: 8px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .ssi-3{
-    margin-left: 16px;
+    margin-left: 1rem;
 
 }
 
@@ -638,22 +642,22 @@ html{
 
 
 .item-list-heading-text{
-    font-size: 22px;
+    font-size: 1.375rem;
     color: #000;
 }
 
 .item-list-icon-btn {
     color: #3fd0d4;
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 
 .item-list-text {
-    font-size: 14px;
-    margin-top: 10px;
+    font-size: 0.875rem;
+    margin-top: 0.625rem;
 }
 
 .item-list-heading-text-btn {
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 700;
 }
 
@@ -665,10 +669,10 @@ html{
 
 .content-heading-sub-text-2{
     text-align: center;
-    font-size: 17px;
-    margin-top: 12px;
+    font-size: 1.0625rem;
+    margin-top: 0.75rem;
     color: #000;
-    padding-bottom: 30px;
+    padding-bottom: 1.875rem;
 }
 
 
@@ -678,7 +682,7 @@ html{
 
 .place-item{
     width: 33.3333%;
-    margin: 0px 79px;
+    margin: 0rem 4.9375rem;
     text-align: center;
     position: relative;
 }
@@ -690,9 +694,9 @@ html{
 }
 
 .place-text{
-    padding-top: 15px;
+    padding-top: 0.9375rem;
     color: #fff;
-    font-size: 33px;
+    font-size: 2.0625rem;
     font-family: Satisfy,cursive;
     font-style: italic;
     position: absolute;
@@ -716,7 +720,7 @@ html{
 
 .content-section-place-item{
     width: 33.333333%;
-    padding: 0px 80px;
+    padding: 0rem 5rem;
     text-align: center;
     position: relative;
 }
@@ -728,12 +732,12 @@ html{
 
 
 #about{
-    height: 140px;
+    height: 8.75rem;
     background-color: #3fd0d4;
    
 }
 .about-btn{
-    padding: 40px 0px;
+    padding: 2.5rem 0rem;
     align-items: center;
     display: flex;  
     text-align: center;   
@@ -744,7 +748,7 @@ html{
 }
 
 .about-sub-text{
-    font-size: 22px;
+    font-size: 1.375rem;
     color: #fff;
     font-weight: 600;   
 }
@@ -755,7 +759,7 @@ html{
 
 .about-buttom-btn{
     text-transform: uppercase;
-    padding: 18px 66px;
+    padding: 1.125rem 4.125rem;
     border: none; 
    
 }
@@ -766,7 +770,7 @@ html{
 }
 
 #footer{
-    height: 468px;
+    height: 29.25rem;
     width: 100%;
     background-color:#212121 ;
     z-index: 100;
@@ -774,43 +778,48 @@ html{
 }
 
 .footer-list{  
-    padding: 106px 80px 78px 80px;
+    padding: 6.625rem 5rem 4.875rem 5rem;
 }
 
 .size-logo{
-    width: 263px;
-    height: 84px;
+    width: 16.4375rem;
+    height: 5.25rem;
 }
 
 .footer-list{
     display: flex;
+    flex-wrap: wrap;
+}
+@media only s
+.footer-list{
+    
 }
 
 .footer-list-btn{
     width: 25%;
-    padding: 0px 15px;
+    padding: 0rem 0.9375rem;
  }
 
 .text-item{
     color: #a9a9a9;
-    margin-top: 20px;
-    margin-bottom: 18px;
+    margin-top: 1.25rem;
+    margin-bottom: 1.125rem;
     
 }
 
 .footer-link{
     display: block;
     color: #fff;
-    margin-bottom: 4px;
+    margin-bottom: 0.25rem;
 }
 
 .icon-link{
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 .footer-link-text{
-    font-size: 14px;
-    padding-left: 10px;
+    font-size: 0.875rem;
+    padding-left: 0.625rem;
 }
 
 .footer-list a:hover {
@@ -819,21 +828,21 @@ html{
 
 .footer-heading{
     color: #fff;
-    font-size: 18px;
+    font-size: 1.125rem;
     
 }
 
 .footer-heading-text{
-    margin-bottom: 26px;
+    margin-bottom: 1.625rem;
     
 }
 
 .blog-list{
-    padding-left: 0px;
+    padding-left: 0rem;
 }
 
 .blog-list-item{
-   margin-bottom: 30px;
+   margin-bottom: 1.875rem;
     list-style-type: none;
 }
 
@@ -843,39 +852,39 @@ html{
 
 .blog-link-text{
     color: #a9a9a9;
-    margin: 10px 0px;
+    margin: 0.625rem 0rem;
 }
 
 
 .day{
-    margin-top: 11px;
+    margin-top: 0.6875rem;
     color: #fff;
 }
 
 .footer-login{
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .input-list{
     width: 100%;
-    height: 50px;
+    height: 3.125rem;
     background-color: #b1b2b2;
-    margin-bottom: 5px;
+    margin-bottom: 0.3125rem;
 }
 
 .subscribe-btn{
     width: 100%;
-    height: 50px;
+    height: 3.125rem;
     background-color: #3fd0d4;
     color: #fff;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 0.875rem;
     border: none;
 }
 
 #sub-footer{
-    height: 68px;
+    height: 4.25rem;
     width: 100%;
     background-color:#212121 ;
     display: flex;
@@ -886,14 +895,15 @@ html{
 }
 .sub-footer-text{
     margin-bottom: 0;
-    margin-right: 2px;
+    margin-right: 0.125rem;
 }
 
 .sub-text-link{
-    margin-left: 2px;
+    margin-left: 0.125rem;
     color: #fff;
     text-decoration: none;
 }
 
 .sub-text-link:hover {
     color: #3fd0d4;
+
