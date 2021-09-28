@@ -156,6 +156,7 @@ body{
     width: 100%;
 }
 
+
 .nav-tab-heading{
    display: flex;
    justify-content: center;
@@ -563,7 +564,13 @@ body{
 .video{
     text-align: center;
     margin-top: 3.75rem;
-  }
+}
+
+.video-water{
+    width: 1000px;
+    height: 480px;
+}
+
 
 .row{
     text-align: center;   
