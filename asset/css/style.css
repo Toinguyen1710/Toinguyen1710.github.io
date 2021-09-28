@@ -8,14 +8,25 @@ html{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    position: relative;
+    width: 100%;
+}
+
+#main{
+   
+}
+
 #header{
-    position: fixed;
+    /* position: fixed;*/
     top: 0;
     right: 0;
     left: 0;
+    position: absolute;
     display: flex;
     height: 5rem;
-    background-color: #fff;
+    background-color: rgba(0,0,0,0.12);
+    /* background-color: #fff; */
     padding: 0rem 1.25rem;
     box-shadow: 0rem 0.3125rem 0.625rem rgb(0 0 0 / 10%);
     z-index: 10;
@@ -49,7 +60,7 @@ html{
 
 .list-item-text{ 
     text-decoration: none;
-    color: #000;
+    color: #fff;
     font-size: 0.9375rem;
     font-weight: bolder;
     line-height: 5rem;
@@ -57,7 +68,7 @@ html{
 }
 
 .header-list > li:hover > a{
-    color: #3fd0d4;
+    color: #fff;
 }
 
 .header-icon{
@@ -79,7 +90,7 @@ html{
 }
 .list-icon-link{
    font-size: 1.375rem;
-   color: #000;
+   color: #fff;
    padding: 0rem 0.625rem;
 }
 
@@ -87,9 +98,10 @@ html{
     display: none;
     position: absolute;
     background-color: #fff;
-    min-width: 13.75rem;
+    min-width: 12.75rem;
     box-shadow: 0 0.0625rem 0.25rem rgb(0 0 0 / 20%);
     margin-left: -2.625rem;
+    border: 0.1px solid #ccc;
 }
 .header-list-btn li a{
    
@@ -109,27 +121,77 @@ html{
 
 .header-list-btn li:hover a{
     color: #3fd0d4;
+   
+}
+
+.header-list-btn li:hover {
+    transform: translateX(0.3125rem);
 }
 
 .header-list li:hover .header-list-btn{
     display: block;
 }
 
+
+
+#slider{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.background-video{
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-size: cover;
+    width: 100%;
+}
+
+.nav-tab-heading{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 30px;
+}
+
+.nav-tab-heading-btn{
+    font-size: 56px;
+    color: #fff;
+    font-style: italic;
+    font-family: Satisfy,cursive;
+    font-weight: 600;
+}
+   
+
 .nav-tab{
     margin-top: 1.875rem;
-    width: 70rem; 
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-   
+    width: 65%;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-.nav-form-control, .nav-select{
+
+.nav-form-control{
+    display: flex;
+}
+.nav-form-control-btn, .nav-select{
     width: 19.0625rem;
     padding: 0rem 0.1875rem;
 }
 
 .nav-buttons{
     padding: 0rem 0.1875rem;
+    
 }
 
 .button1{
@@ -137,8 +199,9 @@ html{
     text-transform: uppercase;
     background-color: #3fd0d4;
     color: #fff;
-    width: 11.3125rem;
-    height: 4.875rem;
+    width: 8.3125rem;
+    height: 50px;
+    border-radius: 5px;
 }
 
 .button1:hover {
@@ -148,7 +211,7 @@ html{
 
 #content{
     margin-top: 5rem;
-  
+   
 }
 
 
@@ -157,9 +220,15 @@ html{
 }
 
 .content-heading-text{
+    
+    padding-bottom: 2.9375rem;
+}
+
+.content-heading-text-1{
     padding-top: 6.3125rem;
     padding-bottom: 2.9375rem;
 }
+
 
 .content-heading-text-3{
     padding-top: 6.875rem;
@@ -516,6 +585,10 @@ html{
     
 }
 
+#slider{
+    
+}
+
 #slider-btn{
     width: 100%;
 }
@@ -772,11 +845,10 @@ html{
 }
 
 #footer{
-    height: 29.25rem;
+    
     width: 100%;
     background-color:#212121 ;
     z-index: 100;
-   
 }
 
 .footer-list{  
@@ -784,17 +856,12 @@ html{
 }
 
 .size-logo{
-    width: 16.4375rem;
-    height: 5.25rem;
+    width: 100%;
 }
 
 .footer-list{
     display: flex;
     flex-wrap: wrap;
-}
-@media only s
-.footer-list{
-    
 }
 
 .footer-list-btn{
@@ -874,6 +941,10 @@ html{
     margin-bottom: 0.3125rem;
 }
 
+.subscribe:hover .subscribe-btn{
+    background-color: #23a9af;
+}
+
 .subscribe-btn{
     width: 100%;
     height: 3.125rem;
@@ -908,4 +979,5 @@ html{
 
 .sub-text-link:hover {
     color: #3fd0d4;
+}
 
