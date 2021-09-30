@@ -18,15 +18,13 @@ body{
 }
 
 #header{
-    /* position: fixed; */
     top: 0;
     right: 0;
     left: 0;
     position: absolute;
     display: flex;
     height: 5rem;
-    background-color: rgba(0,0,0,0.12);
-    /* background-color: #fff; */
+    background-color: rgba(0,0,0,0.2);
     padding: 0rem 1.25rem;
     box-shadow: 0rem 0.3125rem 0.625rem rgb(0 0 0 / 10%);
     z-index: 10;
@@ -89,6 +87,39 @@ body{
    font-size: 1.375rem;
    color: #fff;
    padding: 0rem 0.625rem;
+   display: block;
+   position: relative;
+}
+
+.list-icon-btn{
+    position: absolute;
+    top: 100%;
+    right: 10px;
+    background-color: #fff;
+    width: 400px;
+    border-radius: 2px;
+    box-shadow: 0 0.0625rem 0.25rem rgb(0 0 0 / 20%);
+    display: none;
+    text-align: center;
+    min-height: 90px;
+}
+
+.list-icon-cart i{
+    line-height: 80px;
+}
+
+.list-icon-link:hover .list-icon-btn{
+    display: block;
+}
+
+.header__cart--no-cart-text{
+    color: #000;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.header__cart--no-cart{
+
 }
 
 .header-list-btn{
@@ -101,7 +132,6 @@ body{
     border: 0.1px solid #ccc;
 }
 .header-list-btn li a{
-   
     text-decoration: none;
 }
 
@@ -258,7 +288,7 @@ body{
     display: flex;
     justify-content: center;
     text-align: center;
-    font-size: 0.875rem; 
+    font-size: 17px;
 }
 
 .section-sub-heading-1{
@@ -479,7 +509,7 @@ body{
 }
 
 .content-place{
-    padding: 0rem 4.375rem;
+    padding: 20px 4.375rem;
 }
 
 .content-place-list{
@@ -611,7 +641,7 @@ body{
 
 .slider-btn-tour{
     display: flex;
-    
+    margin-top: 20px;
 }
 
 .tour{
@@ -794,9 +824,6 @@ body{
     text-decoration: none;
 }
 
-.content-section-place{
-
-}
 
 .content-section-place-list{
     display: flex;

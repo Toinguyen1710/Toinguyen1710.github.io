@@ -23,14 +23,14 @@
             </div>
             <ul class="header-list">
                 <li class="header-list-item"><a href="#" class="list-item-text">Home</a>
-                    <ul class="header-list-btn">
+                    <!-- <ul class="header-list-btn">
                         <li class="header-list-item-btn"><a href="#" class="list-item-text-btn">Travel Agency</a></li>
                         <li class="header-list-item-btn"><a href="#" class="list-item-text-btn">Winter Holidays</a></li>
                         <li class="header-list-item-btn"><a href="#" class="list-item-text-btn">Summer Holidays</a></li>
                         <li class="header-list-item-btn"><a href="#" class="list-item-text-btn">New Year Trip</a></li>
                         <li class="header-list-item-btn"><a href="#" class="list-item-text-btn">Wine Tour</a></li>
                         <li class="header-list-item-btn"><a href="#" class="list-item-text-btn">City Tour</a></li>
-                    </ul>
+                    </ul> -->
                 </li>
                 <li class="header-list-item"><a href="#" class="list-item-text">Pages</a>
                     <ul class="header-list-btn">
@@ -77,19 +77,28 @@
                     </ul>
                 </li>
                 <li class="header-list-item"><a href="#" class="list-item-text">Element</a>
-                    <ul class="header-list-btn " >
+                    <!-- <ul class="header-list-btn " >
                         <li class="header-list-item-btn"><a href="#" class="list-item-text-btn">Travel Agency</a></li>
                         <li class="header-list-item-btn"><a href="#" class="list-item-text-btn">Winter Holidays</a></li>
                         <li class="header-list-item-btn"><a href="#" class="list-item-text-btn">Summer Holidays</a></li>
                         <li class="header-list-item-btn"><a href="#" class="list-item-text-btn">New Year Trip</a></li>
                         <li class="header-list-item-btn"><a href="#" class="list-item-text-btn">Wine Tour</a></li>
                         <li class="header-list-item-btn"><a href="#" class="list-item-text-btn">City Tour</a></li>
-                    </ul>
+                    </ul> -->
                 </li>
             </ul>
             <ul class="header-icon">
-                <li class="list-icon"><a href="#" class="list-icon-link"><i class="fas fa-shopping-cart"></i></a></li>
-                <!-- <li class="list-icon"><a href="#" class="list-icon-link"><i class="fas fa-search"></i></a></li> -->
+                <li class="list-icon">
+                    <div class="list-icon-link ">
+                        <div class="list-icon-cart">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <div class="list-icon-btn  header__cart--no-cart"> 
+                            <img src="./asset/img/no-cart.png" alt="">                       
+                            <p class="header__cart--no-cart-text">no product in the cart.</p>
+                        </div>               
+                    </div>
+                </li>
                 <li class="list-icon"><a href="#" class="list-icon-link"><i class="fas fa-bars"></i></a></li>
             </ul>
         </div>
@@ -411,7 +420,7 @@
                 <div id="slider-btn">
                     <div class="slider-btn-tour">
                         <div class="tour tour-1">
-                            <a href="#" class="tour-link-img" ><img class="tour-list" src="./asset/img/1.jpg" alt=""></a>
+                            <a href="#" class="tour-link-img" ><img class="tour-list" src="./asset/img/rome.jpg" alt=""></a>
                             <div class="ticket-label">
                                 <span class="ticket-label-icon">
                                     <i class="fas fa-calendar-week"><span class="label-icon-text">1</span></i>
@@ -425,7 +434,7 @@
                             </div>
                             <div class="tour-heading">
                                 <div class="tour-heading-btn">
-                                    <a href=""><h4 class="text-heading">Snow Surfing</h4></a>                          
+                                    <a href=""><h4 class="text-heading">Rome</h4></a>                          
                                     <p class="sub-text-heading">The majestic beauty of winter promises you the most..</p>
                                 </div>
                                 <div class="ticket">
@@ -435,7 +444,7 @@
                             </div>  
                         </div>
                         <div class="tour tour-2">
-                            <a href="#"><img class="tour-list" src="./asset/img/2.jpg" alt=""></a>
+                            <a href="#"><img class="tour-list" src="./asset/img/vatican.jpg" alt=""></a>
                             <div class="ticket-label">
                                 <span class="ticket-label-icon">
                                     <i class="fas fa-calendar-week"><span class="label-icon-text">1</span></i>
@@ -449,7 +458,7 @@
                             </div>
                             <div class="tour-heading">
                                 <div class="tour-heading-btn">
-                                    <a href=""><h4 class="text-heading">Snow Surfing</h4></a> 
+                                    <a href=""><h4 class="text-heading">vatican City</h4></a> 
                                     <p class="sub-text-heading">The majestic beauty of winter promises you the most..</p>
                                 </div>
                                 <div class="ticket">
@@ -459,7 +468,7 @@
                             </div>
                         </div>
                         <div class="tour tour-3">
-                            <a href="#"><img class="tour-list" src="./asset/img/3.jpg" alt=""></a>
+                            <a href="#"><img class="tour-list" src="./asset/img/milan.jpg" alt=""></a>
                             <div class="ticket-label">
                                 <span class="ticket-label-icon">
                                     <i class="fas fa-calendar-week"><span class="label-icon-text">1</span></i>
@@ -473,7 +482,7 @@
                             </div>
                             <div class="tour-heading">
                                 <div class="tour-heading-btn">
-                                    <a href=""><h4 class="text-heading">Snow Surfing</h4></a> 
+                                    <a href=""><h4 class="text-heading">Milan</h4></a> 
                                     <p class="sub-text-heading">The majestic beauty of winter promises you the most..</p>
                                 </div>
                                 <div class="ticket">
@@ -483,7 +492,7 @@
                             </div>  
                         </div>
                         <div class="tour tour-4">
-                            <a href="#"><img class="tour-list" src="./asset/img/4.jpg" alt=""></a>
+                            <a href="#"><img class="tour-list" src="./asset/img/seville.jpg" alt=""></a>
                             <div class="ticket-label">
                                 <span class="ticket-label-icon">
                                     <i class="fas fa-calendar-week"><span class="label-icon-text">1</span></i>
@@ -497,7 +506,7 @@
                             </div>
                             <div class="tour-heading">
                                 <div class="tour-heading-btn">
-                                    <a href=""><h4 class="text-heading">Snow Surfing</h4></a> 
+                                    <a href=""><h4 class="text-heading">Seville</h4></a> 
                                     <p class="sub-text-heading">The majestic beauty of winter promises you the most..</p>
                                 </div>
                                 <div class="ticket">
